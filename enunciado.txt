@@ -1,0 +1,13 @@
+Tarefas:
+
+Tarefa 1: Fazer cada um dos processos testar o seguinte no anel
+	Testar com a função status do SMPL e imprimir (printf) o resultado de cada teste
+	Por exemplo: "O processo 1 testou o processo 2 correto."
+
+Tarefa 2: Cada processo correto executa testes até achar outro processo correto. Imprimir os testes e resultados.
+
+Tarefa 3: Cada processo mantém localmente o vetor State[N]
+	Inicializa o State[N] com -1 para as N entradas indicando "unknown"
+	Atualiza as entradas correspondentes do State[] ao testar
+		  
+Tarefa 4: Quando um processo correto testa outro processo correto obtém as informações de diagnóstico do processo testado sobre todos os processos do sistema exceto aqueles que testou nesta rodada.
